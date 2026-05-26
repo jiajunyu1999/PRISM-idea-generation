@@ -1,0 +1,16 @@
+backbone,complete_500,mean_total_tokens,mean_word_count,method,method_label,n_ideas,sum_completion_tokens,sum_prompt_tokens,sum_total_tokens
+gpt5.4,True,3361.9,296.518,prism,PRISM,500,0,0,1680950
+gpt5.4,True,9581.638,224.222,ai_scientist_idea_module,AI Scientist,500,0,0,4790819
+gpt5.4,True,9366.674,220.818,ai_researcher_style,AI Researcher,500,0,0,4683337
+gpt5.4,True,9207.626,223.854,researchagent_style,ResearchAgent,500,0,0,4603813
+gpt5.4,True,9355.636,219.912,virsci_full_reproduction,VirSci,500,0,0,4677818
+llama3.1,True,2737.54,244.708,prism,PRISM,500,514354,854416,1368770
+llama3.1,True,5601.038,182.006,ai_scientist_idea_module,AI Scientist,500,835062,1965457,2800519
+llama3.1,True,4767.472,176.43,ai_researcher_style,AI Researcher,500,674471,1709265,2383736
+llama3.1,True,4434.738,186.454,researchagent_style,ResearchAgent,500,648667,1568702,2217369
+llama3.1,True,4891.328,183.106,virsci_full_reproduction,VirSci,500,684774,1760890,2445664
+qwen3-8b,True,8725.274,243.736,prism,PRISM,500,2825132,1537505,4362637
+qwen3-8b,True,4127.462,167.274,ai_scientist_idea_module,AI Scientist,500,1097538,966193,2063731
+qwen3-8b,True,4653.802,167.29,ai_researcher_style,AI Researcher,500,1334191,992710,2326901
+qwen3-8b,True,4107.87,166.624,researchagent_style,ResearchAgent,500,1147065,906870,2053935
+qwen3-8b,True,3995.848,165.548,virsci_full_reproduction,VirSci,500,996732,1001192,1997924

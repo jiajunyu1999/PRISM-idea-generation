@@ -1,0 +1,21 @@
+avg_pairwise_win_rate,backbone,losses,method,method_label,n_pairwise,overall_pairwise_win_rate,ties,wins
+0.8018333333333333,ALL,1189,prism,PRISM,6000,0.8018333333333333,0,4811
+0.46266666666666667,ALL,3224,researchagent_style,ResearchAgent,6000,0.46266666666666667,0,2776
+0.4476666666666667,ALL,3314,ai_researcher_style,AI Researcher,6000,0.44766666666666666,0,2686
+0.4065,ALL,3561,ai_scientist_idea_module,AI Scientist,6000,0.4065,0,2439
+0.3813333333333333,ALL,3712,virsci_full_reproduction,VirSci,6000,0.38133333333333336,0,2288
+0.7090000000000001,gpt5.4,582,prism,PRISM,2000,0.709,0,1418
+0.5525,gpt5.4,895,researchagent_style,ResearchAgent,2000,0.5525,0,1105
+0.4485,gpt5.4,1103,ai_researcher_style,AI Researcher,2000,0.4485,0,897
+0.39849999999999997,gpt5.4,1203,virsci_full_reproduction,VirSci,2000,0.3985,0,797
+0.3915,gpt5.4,1217,ai_scientist_idea_module,AI Scientist,2000,0.3915,0,783
+0.853,llama3.1,294,prism,PRISM,2000,0.853,0,1706
+0.464,llama3.1,1072,ai_researcher_style,AI Researcher,2000,0.464,0,928
+0.40399999999999997,llama3.1,1192,researchagent_style,ResearchAgent,2000,0.404,0,808
+0.40249999999999997,llama3.1,1195,ai_scientist_idea_module,AI Scientist,2000,0.4025,0,805
+0.3765,llama3.1,1247,virsci_full_reproduction,VirSci,2000,0.3765,0,753
+0.8434999999999999,qwen3-8b,313,prism,PRISM,2000,0.8435,0,1687
+0.4315,qwen3-8b,1137,researchagent_style,ResearchAgent,2000,0.4315,0,863
+0.4305,qwen3-8b,1139,ai_researcher_style,AI Researcher,2000,0.4305,0,861
+0.42550000000000004,qwen3-8b,1149,ai_scientist_idea_module,AI Scientist,2000,0.4255,0,851
+0.369,qwen3-8b,1262,virsci_full_reproduction,VirSci,2000,0.369,0,738

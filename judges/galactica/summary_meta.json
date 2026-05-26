@@ -1,0 +1,16 @@
+{
+  "backbones": [
+    "gpt5.4",
+    "llama3.1",
+    "qwen3-8b"
+  ],
+  "complete_backbone_task_groups": 1500,
+  "methods": [
+    "ai_researcher_style",
+    "ai_scientist_idea_module",
+    "prism",
+    "researchagent_style",
+    "virsci_full_reproduction"
+  ],
+  "valid_score_rows": 7500
+}
