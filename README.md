@@ -45,3 +45,6 @@ OPENAI_API_KEY=... python code/prism.py \
 
 Benchmark rows should contain `id`, `task_id`, or `benchmark_id`, plus a problem
 field such as `problem_statement` or `problem`.
+
+## Impact Judge
+Details see [README.md](./impact_reward/README.md).

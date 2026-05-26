@@ -1,0 +1,52 @@
+project: qwen25_7b_instruct_reward_lora_8gpu_r8
+
+model:
+  base_model_name: Qwen/Qwen2.5-7B-Instruct
+  max_length: 512
+  pooling: last_token
+  torch_dtype: bfloat16
+  lora_r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+data:
+  formatter: paper_raw_v1
+  val_ratio: 0.02
+  num_workers: 16
+
+train:
+  seed: 42
+  epochs: 4
+  batch_size: 1
+  grad_accum_steps: 8
+  learning_rate: 1e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.03
+  fp16: false
+  bf16: true
+  gradient_checkpointing: false
+  log_every: 100
+  eval_every_steps: 2000
+  save_every_steps: 2000
+  use_data_parallel: false
+  save_last_checkpoint: true
+  save_best_checkpoint: true
+  weighted_start_epoch: 2
+  ddp_static_graph: true
+  ddp_find_unused_parameters: false
+  early_stopping:
+    enabled: true
+    patience: 4
+    min_delta: 0.0005
+
+loss:
+  name: pairwise_logistic
+  weighted: true
+  reg_coef: 1e-4
+  margin: 1.0
+
+eval:
+  dedup_test_pairs: true
+  export_error_cases: true
+  calibration: sigmoid
