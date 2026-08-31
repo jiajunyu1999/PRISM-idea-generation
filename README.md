@@ -1,5 +1,9 @@
 # PRISM Idea Generation
 
+**PRISM: Entropy-Guided Multi-View Exploration for Scientific Idea Generation**
+
+EMNLP 2026 Main.
+
 Minimal public artifact for PRISM idea generation.
 
 This repository intentionally contains only:
