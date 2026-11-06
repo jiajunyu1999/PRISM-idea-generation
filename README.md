@@ -12,7 +12,7 @@
 
 Jiajun Yu, Weifan Mao, Kaipeng Zeng, Kejia Bian, Zhuo Wang, Kun Li, and Haishuai Wang
 
-[Highlights](#highlights) · [Method](#method) · [Results](#results) · [Quick start](#quick-start) · [Citation](#citation)
+[Highlights](#highlights) · [Method](#method) · [Results](#results) · [Cases](#case-study-microplastics-in-soil-ecosystems) · [Quick start](#quick-start) · [Citation](#citation)
 
 </div>
 
@@ -54,7 +54,7 @@ These are aggregate results reported in the paper across the evaluated backbones
 *Figure 2.* Analysis connects view entropy and complementary exploration to idea quality.
 
 <details>
-<summary><b>See the token-cost trade-off, domain robustness, and a qualitative example</b></summary>
+<summary><b>See the token-cost trade-off and domain robustness</b></summary>
 
 ![Token cost versus pairwise win rate](assets/figures/token-cost.png)
 
@@ -64,11 +64,21 @@ These are aggregate results reported in the paper across the evaluated backbones
 
 *Figure 11.* Domain-level pairwise performance against the compared baselines.
 
-![Scientific idea case study](assets/figures/case-study.png)
-
-*Figure 10.* A soil-microplastic research problem from the human evaluation illustrates differences between generated proposals.
-
 </details>
+
+## Case study: microplastics in soil ecosystems
+
+**Research problem:** How do microplastics affect soil ecosystems, particularly subterranean invertebrates?
+
+![PRISM and baseline proposals for a soil-microplastic research problem](assets/figures/case-study.png)
+
+*Figure 10 from the paper.* Side-by-side proposals from the human evaluation show how the methods approach the same research problem.
+
+- **PRISM's proposal:** “RhizoLoom” combines trait-resolved soil mesocosms with isotopically labeled microplastics, species-specific invertebrate movement imaging, and stable-isotope probing.
+- **Testable mechanism:** the design aims to distinguish a causal exposure pathway rather than only measure broad ecosystem changes.
+- **Case-level evaluation:** PRISM received **5/5**, while each of the four compared baselines received **3/5** in this example. This is one qualitative case, not the overall evaluation average.
+
+Explore more outputs in [`ideas/all_ideas.csv`](ideas/all_ideas.csv) or the machine-readable [`JSONL release`](ideas/all_ideas.jsonl).
 
 ## Quick start
 
