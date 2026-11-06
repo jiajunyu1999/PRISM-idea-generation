@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="PRISM — EMNLP 2026 MAIN · ORAL">
-
 # PRISM
 
 ### Entropy-Guided Multi-View Exploration for Scientific Idea Generation
