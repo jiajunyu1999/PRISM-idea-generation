@@ -1,0 +1,62 @@
+{
+  "paper": "https://aclanthology.org/2026.emnlp-main.1180/",
+  "source_pdf": "2026.emnlp-main.1180.pdf",
+  "render_scale": 3,
+  "figures": [
+    {
+      "file": "framework.png",
+      "figure": 1,
+      "pdf_page": 4,
+      "crop_points": [
+        68,
+        65,
+        529,
+        274
+      ]
+    },
+    {
+      "file": "entropy-analysis.png",
+      "figure": 2,
+      "pdf_page": 7,
+      "crop_points": [
+        68,
+        381,
+        529,
+        498
+      ]
+    },
+    {
+      "file": "token-cost.png",
+      "figure": 3,
+      "pdf_page": 8,
+      "crop_points": [
+        303,
+        65,
+        529,
+        180
+      ]
+    },
+    {
+      "file": "domain-robustness.png",
+      "figure": 11,
+      "pdf_page": 22,
+      "crop_points": [
+        68,
+        354,
+        529,
+        696
+      ]
+    },
+    {
+      "file": "case-study.png",
+      "figure": 10,
+      "pdf_page": 21,
+      "crop_points": [
+        68,
+        430,
+        529,
+        702
+      ]
+    }
+  ]
+}
